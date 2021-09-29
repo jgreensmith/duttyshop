@@ -16,4 +16,6 @@ function getCommerce(commercePublicKey) {
     }
 }
 
+//each time getCommerce is used in a component, a new instance of Commerce is created! 
+
 export default getCommerce;
