@@ -26,7 +26,6 @@ export default function Product(props) {
                     <StyledImg 
                         src={product.media.source}
                         alt={product.name}
-                        
                     />
                 </Grid>
                 <Grid item md={3} xs={12}>
