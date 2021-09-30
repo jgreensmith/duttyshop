@@ -17,6 +17,7 @@ export default function Product(props) {
   const [quantity, setQuantity] = useState(1);
   const { state, dispatch } = useContext(Store);
   const { cart } = state;
+  console.log({product})
 
   const addToCartHandler = async () => {
     const commerce = getCommerce(props.commercePublicKey);

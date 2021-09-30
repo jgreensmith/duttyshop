@@ -1,6 +1,3 @@
-/* eslint-disable @next/next/link-passhref */
-/* eslint-disable @next/next/no-img-element */
-
 import { Card, CardActionArea, CardContent, CardMedia, Grid, Slide, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import Link from 'next/link';

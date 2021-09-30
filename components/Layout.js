@@ -27,7 +27,6 @@ export default function Layout ({
         fetchCart();
     }, []);
 
-    console.log(cart.data);
 
     return (
         <>

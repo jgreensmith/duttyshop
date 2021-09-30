@@ -43,6 +43,11 @@ export const StyledImg = styled('img')({
   maxWidth: '50rem',
   width: '100%',
 })
+// export const StyledFormControl = styled('div')({
+//   margin: theme.spacing(1),
+//   minWidth: 120,
+//   width: '100%',
+// })
 
 // export const useStyles = makeStyles((theme) => ({
 //     appBar: {
